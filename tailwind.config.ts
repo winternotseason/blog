@@ -13,6 +13,11 @@ export default {
         foreground: "var(--foreground)",
       },
     },
+    fontFamily: {
+      TheJamsil5Bold: ["TheJamsil5Bold"],
+      TheJamsil2Light: ["TheJamsil2Light"],
+      TheJamsil4Medium: ["TheJamsil4Medium"],
+    },
   },
   plugins: [],
 } satisfies Config;
