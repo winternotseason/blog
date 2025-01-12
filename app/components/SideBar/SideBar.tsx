@@ -16,7 +16,7 @@ const SideBar = () => {
         onClick={() => setSideBarOpen(false)}
       />
       <div
-        className={`flex flex-col justify-between text-lg z-20 fixed top-[81px] w-2/3 right-0 bg-white transition-transform duration-500 ${
+        className={`flex flex-col justify-between z-20 fixed top-[81px] w-2/3 right-0 bg-white transition-transform duration-500 ${
           sideBarOpen
             ? "translate-x-0 ease-out"
             : "translate-x-full ease-in-out"
@@ -45,7 +45,10 @@ const SideBar = () => {
             Library
           </li>
         </ul>
-        <footer className="px-6 py-4">footer</footer>
+        <footer className="flex justify-end text-sm text-black/50 space-x-2 px-6 py-4">
+          <p>Github</p>
+          <p>dev 황서연</p>
+        </footer>
       </div>
     </>
   );

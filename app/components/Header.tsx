@@ -21,9 +21,9 @@ const Header = () => {
         </p>
       </div>
 
-      <div className="flex text-2xl items-center">
+      <div className="flex  items-center">
         {/* 서치 바 */}
-        <FiSearch className="text-black/70 mr-4" />
+        <FiSearch className="text-black/70 mr-4" size={24} />
         {/* 아코디언 메뉴 */}
         <SideBar />
       </div>
