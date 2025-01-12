@@ -13,6 +13,9 @@ export default {
         foreground: "var(--foreground)",
       },
     },
+    backgroundImage: {
+      "custom-gif": "url('/bg-gif.gif')",
+    },
     fontFamily: {
       TheJamsil5Bold: ["TheJamsil5Bold"],
       TheJamsil2Light: ["TheJamsil2Light"],
