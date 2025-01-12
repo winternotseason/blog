@@ -3,7 +3,7 @@
 import React from "react";
 
 const style =
-  "bg-black w-6 h-[2px] rounded-3xl transition-all duration-500 ease-in-out ";
+  "bg-black/70 w-6 h-[2px] rounded-3xl transition-all duration-500 ease-in-out ";
 
 const Accordion = ({
   sideBarOpen,
